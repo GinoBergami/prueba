@@ -1,0 +1,352 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1{
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: #b95a00;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+}
+header ul li{
+    margin: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.titulo{
+    color: #b95a00;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* HEADER */
+
+.ubi{
+    text-align: center;
+    color: #e6e6e6;
+    padding: 50px 0 0 0;
+}
+
+.encabezado{
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.promo{
+    text-align: center;
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    height: 420px;
+    background: #7b4397;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, hsla(356, 72%, 50%, 0.507), hsla(258, 39%, 43%, 0.507)), url(../img/fondo2.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, hsla(356, 72%, 50%, 0.507), hsla(241, 41%, 43%, 0.507)), url(../img/fondo2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+position: relative;
+}
+
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.textos-header h1{
+    font-size: 40px;
+    color:rgb(255, 255, 255);
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(255, 255, 255);
+}
+
+.maps{
+    text-align: center;
+}
+
+/* about us */
+
+.conteenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 48%;
+}
+
+
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #b95a00;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 15px;
+     font-weight: 300;
+     text-align: justify;
+}
+
+.barra {
+    padding: 20px 0;
+    background: #fbaf32;
+    background: -webkit-linear-gradient(left, #b95a00 0%,#ad5400 );
+}
+.barra p {
+    margin: 0;
+    color: white;
+}
+.icono{
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.icono1  {
+    background-image: url(../img/icono1.png);
+}
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+.icono3  {
+    background-image: url(../img/icono3.png);
+}
+
+.nav{
+display: flex;
+}
+
+.menu{
+    color: #fff;
+    
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+.form{
+    width: 340px;
+    height: 44rem;
+    background: #e6e6e6;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    position: relative;
+    align-items: center;
+}
+input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+    
+}
+input:focus{
+    border-bottom:2px solid #78788c
+}
+.button__contact:hover{background:#78788c;color:#fff}
+
+.button__contact{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;color:#5a5a6e;
+    cursor:pointer;transition:all .3s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.div__contact{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+}
+.edad
+{
+    height: 5rem;
+}
+.radio{
+    position: absolute;
+}
+.contact_me{
+    position: absolute;
+    bottom: -2rem;
+    right: -20px;
+    background: #50505a;
+    color: #fff;
+    width: 320px;
+    padding: 16px 4px 16px 0;
+    border-radius: 6px;
+    font-size: 13px;
+    box-shadow: 10px 10px 40px -14px #000;
+    padding-top: 20px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+.span_contact{
+    margin:0 5px 0 15px;
+
+}
+
+#lista-platillos  .row {
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255, 0.05);
+    background: #1d2124;
+    }
+
+    @media (min-width:550px){
+        .card  {
+            text-align: left;
+        }
+    }
+    .info-card {
+        padding: 10px 20px;
+        color: white;
+    }
+    .info-card p,
+    .card h4 {
+        margin-bottom: 5px;
+    }
+    .info-card  .precio  {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .info-card .precio span {
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .ser{
+        text-align: center;
+        padding: 0 0 40px 0;
+        color: #b95a00;
+    }
+
+    .about-services{
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+
+    .servicio-cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .servicio-ind{
+        width: 28%;
+        text-align: center;
+    }
+
+    .servicio-ind img{
+        width: 90%;
+    }
+
+    .servicio-ind h3{
+        margin: 10px 0;
+    }
+
+    .servicio-ind p{
+        font-weight: 300;
+        text-align: justify;
+    }
+
+    footer{
+        background: #ad5400;
+        padding: 60px 0 30px 0;
+        margin: auto;
+        overflow: hidden;
+    }
+
+    .contenedor-footer{
+        color: #e6e6e6;
+        text-align: center;
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 50px;
+    }
